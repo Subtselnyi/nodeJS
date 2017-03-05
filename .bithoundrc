@@ -1,0 +1,47 @@
+24 lines (23 sloc) 286 Bytes 
+
+{
+
+  "dependencies": {
+
+    "unused-ignores": [
+
+      "mkdirp",
+
+      "bcrypt"
+
+    ]
+
+  },
+
+  "critics": {
+
+    "lint": {
+
+      "engine": "eslint"
+
+    },
+
+    "wc": {
+
+      "limit": 40000
+
+    }
+
+  },
+
+  "ignore": [
+
+    "**/node_modules/**",
+
+    "tests/**"
+
+  ],
+
+  "test": [
+
+    "tests/**"
+
+  ]
+
+}
